@@ -86,3 +86,57 @@ p{
     line-height: 34px;
     color: #000000; 
 }
+
+
+
+@media screen and (max-width: 900px){
+    header{
+        display: none;
+    }
+
+    p{
+        display: none;
+    }
+
+    .logo-image{
+        display: block;
+        margin: 0 auto;
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    h1{
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 80px;
+        color: #515151;
+        text-align: center;
+    }
+
+    h2{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 40px;
+        color: #515151;
+        text-align: center;
+    }
+
+    .button-main{
+        background: #adff00;
+        border-radius: 30px;
+        width: 200px;
+        height: 60px;
+        border: none;
+        cursor: pointer;
+        filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        color: #000000; 
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        
+    }
+}
